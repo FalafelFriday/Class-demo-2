@@ -1,0 +1,29 @@
+formula table 
+
+excel allows you write scripts that rely on functions and arguments
+=SUM (1,2,3) 
+functions are functions =SUM () is a function 
+1,2,3 are arguments 
+
+Variables are a refrence to a certain range
+= AVG(F4:F6)
+F4:F6 are variables and represent columuns 
+
+nested function is an function inside another function
+
+Python nest requests.get (target_url_italian, headers=headers).json ()
+	   requests.get (target_url_mexican, headers=headers).json ()
+
+Conditionals: If then
+If D2>5 its true
+if D2<5 then its false 
+
+And_ both sides has to be true
+
+Not-oppisite has to be true 
+
+Or- either has to be true 
+
+=If(And(D2.5, D2<10), True, False)
+to refreence another sheet in excel simply name it with an exclamation point
+=vlookup (<value>, <full table>,<column to retrive>,<match paramater>)
